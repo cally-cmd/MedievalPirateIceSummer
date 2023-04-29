@@ -6,6 +6,12 @@ public class Sign : MonoBehaviour {
   
   public string text;
 
+  void Start() {
+    print(text);
+    GameManager.Instance.DialogShow("This is a test!");
+    GameManager.Instance.DialogHide();
+  }
+
   void OnTriggerEnter2D(Collider2D col) {
     print("Enter sign!");
     if (col.gameObject.CompareTag("Player")) {
