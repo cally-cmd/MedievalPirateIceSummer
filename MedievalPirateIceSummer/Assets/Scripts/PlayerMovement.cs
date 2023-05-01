@@ -74,4 +74,26 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
 
+    /*
+    public CharacterController controls;
+    public Transform camera;
+
+    public float speed = 5f;
+    public float smoothturn = 0.2f;
+    float turnVelocity;
+
+    void Update(){
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+        Vector3 dir = new Vector3(horizontal, 0f, vertical).normalized;
+        if(dir.magnitude >= 0.1){
+            float tarang = Mathf.Atan2(dir.x,dir.z) * Mathf.Rad2Deg + camera.eulerAngles.y;
+            float ang = Mathf.SmoothDampAngle(transform.eulerAngles.y, tarang, ref turnVelocity, smoothturn);
+            transform.rotation = Quaternion.Euler(0f,ang,0f);
+
+            controls.Move(dir * speed * Time.deltaTime);
+        }
+    }
+*/
+
 }
