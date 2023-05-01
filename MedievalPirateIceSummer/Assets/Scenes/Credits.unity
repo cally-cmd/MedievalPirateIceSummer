@@ -628,7 +628,12 @@ MonoBehaviour:
   m_text: 'Miguel: Camera and movement scripts
 
     Daniel: animations and assets,
-    level design'
+    level design
+
+    Gabby: sound design, background
+
+    Tayrn: nav mesh, small
+    fixes'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26cda83302dcb6179919ffeefa4ffc55, type: 2}
   m_sharedMaterial: {fileID: 6423263212997320266, guid: 26cda83302dcb6179919ffeefa4ffc55, type: 2}
@@ -637,8 +642,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
